@@ -1,0 +1,23 @@
+.band-gallery.gallery {
+    display: flex;
+}
+
+.elementor-image-gallery .band-gallery.gallery .gallery-item {
+    max-width: none;
+}
+
+.elementor-image-gallery .band-gallery.gallery .gallery-item:last-child {
+    padding-right: 0;
+}
+
+.band-gallery.gallery img {
+    width: 100%;
+    display: block;
+}
+
+.band-gallery__lightbox__link-title {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {}
+

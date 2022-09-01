@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'band-gallery-eicons';
+  src: url('../font/band-gallery-eicons.woff2?1657731832') format('woff2'),
+       url('../font/band-gallery-eicons.woff?1657732451') format('woff');
+}
+
+.bgae-icon {
+  font-family: 'band-gallery-eicons' !important;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgae-icon:before {
+  content: '\e600';
+}
